@@ -17,7 +17,7 @@ def start():
 
     if difficulty_chosen == False:
         print("Choose a difficulty:")
-        print("1. Easy (Unlimited Guesses")
+        print("1. Easy (Unlimited Guesses)")
         print(f"2. Hard (Limit of {remaining_guesses} guesses)")
         divider()
         difficulty = input("Enter a 1 or 2: ")
